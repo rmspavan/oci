@@ -1,0 +1,75 @@
+Ref url
+
+https://www.oracle.com/solutions/business-analytics/analytics-server/analytics-server.html
+
+https://ai2bi.wordpress.com/2020/07/04/install-oracle-analytics-server-5-5/
+
+Configuration of my Oracle Virtual Box:
+
+10GB RAM
+2 CPU
+CentOS 8
+NAT Adaptors
+Images of every step (Guess so?) are taken for your reference and are self-explanatory in most of the cases.
+
+Installation Summary
+
+Install jdk8
+Install Oracle 19c
+Install Oracle Framework
+Configure using RCU
+Install OAC
+Step 1: Lets install jdk from yum repository
+
+https://www.oracle.com/java/technologies/downloads/#java8
+
+yum localinstall jdk-8u311-linux-x64.rpm
+ java -version
+
+dnf install -y bc
+
+groupadd -g 1501 oinstall
+groupadd -g 1502 dba
+groupadd -g 1503 oper
+groupadd -g 1504 backupdba
+groupadd -g 1505 dgdba
+groupadd -g 1506 kmdba
+
+useradd -u 1501 -g oinstall -G dba,oper,backupdba,dgdba,kmdba,racdba oracle
+
+mkdir -p /u01/app/oracle/product/19.3.0/dbhome_1
+mkdir -p /u02/oradata
+chown -R oracle:oinstall /u01 /u02
+chmod -R 775 /u01 /u02
+
+passwd oracle
+
+yum install xterm 
+sudo yum install xauth
+systemctl restart sshd
+
+[oracle@teachapex ~]$ export ORACLE_HOSTNAME=localhost
+[oracle@teachapex ~]$ export ORACLE_UNQNAME=cdb1
+[oracle@teachapex ~]$ export ORACLE_BASE=/u01/app/oracle
+[oracle@teachapex ~]$ export ORACLE_HOME=$ORACLE_BASE/product/19.3.0/dbhome_1
+[oracle@teachapex ~]$ export ORA_INVENTORY=/u01/app/oraInventory
+[oracle@teachapex ~]$ export ORACLE_SID=cdb1
+[oracle@teachapex ~]$ export PDB_NAME=pdb1
+[oracle@teachapex ~]$ export DATA_DIR=/u02/oradata
+[oracle@teachapex ~]$ export PATH=$ORACLE_HOME/bin:$PATH
+[oracle@teachapex ~]$ export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
+[oracle@teachapex ~]$ export CLASSPATH=$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
+[oracle@teachapex ~]$ source ~/.bash_profile
+[oracle@teachapex ~]$ echo $ORACLE_HOME
+
+https://www.oracle.com/database/technologies/oracle19c-linux-downloads.html
+
+unzip LINUX.X64_193000_db_home.zip -d $ORACLE_HOME
+
+sudo dnf install libnsl
+sudo dnf install libXtst*
+export DISPLAY=servername:11.0;
+
+cd $ORACLE_HOME
+./runInstaller -ignorePrereq
+

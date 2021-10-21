@@ -1,0 +1,30 @@
+IAM;
+-----
+
+Users --> Groups --> Policies --> Block Storage --> Compartments
+Oracle Cloud Identifier (OCI Identity Concepts)
+
+Resources : Cloud Objects
+
+ex: ocid1.<Resource typr>.<Realm>.[region][.future use].<unique ID>
+
+AuthN(Authentication):
+-----------------------
+username and pasword
+API Signing Key (uisng OCI API + SDK/CLI)
+RSA key pair (PEM)
+Auth Tokens ( Oracle-generated token strings, Authenticate third party APIs)
+
+ex:
+Identity & Scurity --> Identity --> Create User --> Name: ociuser01, Description: oci user, Email: xxx@xxx.com--> create
+                                --> create.reset password: to get the password
+
+AuthZ(Authorization): (what permission you have)
+-------------------------
+AuthZ in OCI - IAM policies 
+
+|-- allow-> subjects-> to-> Actions-> in-> placement-> where-> condition --|
+
+Subject Clause
+Action Clause(inspect/read/use/manage)
+

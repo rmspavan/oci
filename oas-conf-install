@@ -1,5 +1,7 @@
 Ref url
 
+https://www.centlinux.com/2020/04/install-oracle-database-19c-on-centos-8.html
+
 https://www.oracle.com/solutions/business-analytics/analytics-server/analytics-server.html
 
 https://ai2bi.wordpress.com/2020/07/04/install-oracle-analytics-server-5-5/
@@ -73,3 +75,32 @@ export DISPLAY=servername:11.0;
 cd $ORACLE_HOME
 ./runInstaller -ignorePrereq
 
+
+dnf install -y bc \
+ binutils \
+ elfutils-libelf \
+ elfutils-libelf-devel \
+ fontconfig-devel \
+ glibc \
+ glibc-devel \
+ ksh \
+ libaio \
+ libaio-devel \
+ libXrender \
+ libXrender-devel \
+ libX11 \
+ libXau \
+ libXi \
+ libXtst \
+ libgcc \
+ librdmacm-devel \
+ libstdc++ \
+ libstdc++-devel \
+ libxcb \
+ make \
+ net-tools \
+ smartmontools \
+ sysstat \
+ unzip \
+ libnsl \
+ libnsl2

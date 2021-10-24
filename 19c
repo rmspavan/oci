@@ -1,0 +1,9 @@
+
+
+cd $ORACLE_HOME
+dbca
+--> Create DB --> advanced configuration --> DB Type:  Oracle Single Instance db --/ General Purpose
+--> Global DB name: test -->SID: test
+--> Use following for the db storage: File System ---/ DB files location: /u01/app/oracle/oradata ans select OMF
+--> Select Specify FRA, Recovery file storage type: file system, FRA: /u01/app/oracle/FRA and Enbale archiving
+

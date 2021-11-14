@@ -213,9 +213,39 @@ C. Virtual Cloud Network (VCN)
 D. Web Application Firewall---->
 
 ##29
+Which pricing model is NOT supported by Oracle Cloud Infrastructure (OCI)?
+A. Bring your own license
+B. Pay-as-you-go
+C. Reserved Instances --->
+D. Universal Credits - Monthly Flex
+ 
+
 ##30
+Which three methods can you use to create or modify Oracle Cloud Infrastructure (OCI) resources? (Choose three.)
+A. REST APIs--->
+B. OCI Console---->
+C. Secure Shell (SSH)
+D. Remote Desktop Protocol (RDP)
+E. OCI desktop client
+F. Commands-line Interface---->
+G. Serial console connection
+
 ##31
+Which service level agreement type is NOT offered by Oracle Cloud Infrastructure Compute service?
+A. Data Plane
+B. Application Plane--->
+C. Control Plane
+D. Performance
+
 ##32
+You are required to host several files in a location that can be publicly accessible from anywhere in the world.
+Which Oracle Cloud Infrastructure (OCI) service should you use?
+A. OCT File Storage
+B. Oracle Functions
+C. OCI Storage Gateway
+D. OCI Block Volume
+E. OCI Object Storage---->
+
 ##33
 ##34
 ##35

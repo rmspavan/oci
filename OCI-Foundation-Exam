@@ -1,0 +1,226 @@
+##1
+A customer wants to deploy a customized e-commerce web application using multiple virtual machines, block storage, databases, load balancer and a web application firewall.
+What cloud model can be used to host this application?
+A. Infrastructure as a Service (IaaS)-->
+B. Software as a Service (SaaS)
+C. Platform as a Service (PaaS)
+D. Anything as a Service (XaaS)
+
+##2
+A new customer has logged into Oracle Cloud Infrastructure (OCI) as an administrator for the first time. The admin would like to deploy infrastructure into a region other than their home region.
+What is the first step they must take in order to accomplish this task?
+A. Navigate to the desired region and begin creating resources.-->
+B. Subscribe to the desired region.
+C. Use API endpoints to create resources in the desired region.
+D. File a service request for access to each additional region.
+
+##3
+Which is NOT required to register and log support requests in My Oracle Support (MOS)?
+A. Your resource OCID (Oracle Cloud Identifier)-->
+B. Your Tenancy OCID (Oracle Cloud Identifier)
+C. Your account password
+D. Your Customer Support Identifier (CSI)
+
+##4
+You are setting up a proof of concept (POC) and need to quickly establish a secure connection between an on-premises data center and Oracle Cloud
+Infrastructure (OCI).
+Which OCI service should you implement?
+A. Internet Gateway
+B. VCN Peering
+C. IPSec VPN -->
+D. FastConnect
+
+##5
+A company has developed an eCommerce web application in Oracle Cloud Infrastructure.
+What should they do to ensure that the application has the highest level of resilience?
+A. Deploy the application across multiple Virtual Cloud Networks.
+B. Deploy the application across multiple Availability Domains and Fault Domains.
+C. Deploy the application across multiple Regions and Availability Domains.-->
+D. Deploy the application across multiple Availability Domains and subnets.
+ 
+
+##6
+A customer wants to use Oracle Cloud Infrastructure (OCI) for storing application backups which can be stored for months, but retrieved immediately based on business needs.
+Which OCI storage service can be used to meet this requirement?
+A. File Storage
+B. Object Storage (standard)
+C. Archive Storage
+D. Block Volume -->
+
+##7
+According to shared security model, which two are a customer's responsibilities in Oracle Cloud Infrastructure (OCI)? (Choose two.)
+A. Object Storage data durability-->
+B. Customer data-->
+C. Local NVMe data persistence
+D. Physical security of OCI data center facilities
+E. Virtual Machine hypervisor
+
+##8
+Which Oracle Cloud Infrastructure service allows you to run code without provisioning any underlying infrastructure resources (such as virtual machines)?
+A. Storage Gateway
+B. Compute service
+C. Oracle Container Engine for Kubernetes
+D. Oracle Functions-->
+
+##9
+A customer wants a dedicated connection with minimal network latency from their on-premises data center to Oracle Cloud Infrastructure (OCI).
+Which service should they choose?
+A. IPSec Virtual Private Network (VPN)
+B. Public internet
+C. OCI FastConnect-->
+D. Virtual Cloud Network Remote Peering
+
+##10
+Which Oracle Cloud Infrastructure (OCI) database solution will be most economical for a customer looking to have the elasticity of the cloud with minimal administration and maintenance effort for their DBA tear?
+A. OCI Bare Metal DB Systems
+B. OCI Virtual Machine DB Systems
+C. OCI Autonomous Database
+D. OCI Exadata DB Systems-->
+
+##11
+Which Oracle Cloud Infrastructure (OCI) service can be used to protect sensitive and regulated data in OCI database services?
+A. Oracle Data Guard
+B. OCI Audit
+C. OCI OS management
+D. Oracle Data Safe-->
+
+##12
+Oracle Cloud Infrastructure Budgets can be set on which two options? (Choose two.)
+A. Compartments-->
+B. Free-form tags
+C. Tenancy
+D. Cost-tracking tags-->
+E. Virtual Cloud Network
+
+##13
+Which service is the most effective for moving large amounts of data from your on-premises to Oracle Cloud Infrastructure (OCI)?
+A. Internet Gateway
+B. Data Transfer appliance-->
+C. Dynamic Routing Gateway
+D. Data Safe
+
+##14
+Which is NOT part of the Oracle Cloud Always Free eligible resources that you can provision in your tenancy?
+A. Block Volume (up to 100 GB total storage)
+B. Autonomous Database (up to two database instances)
+C. Load Balancing (one load balancer)
+D. Fast Connect (1 Gbps public peering)--->
+
+##15
+Which feature is NOT a component of Oracle Cloud Infrastructure (OCI) Identity and Access Management service?
+A. User Credentials
+B. Polices
+C. Network Security Group-->
+D. Federation
+
+##16
+You want to migrate mission-critical Oracle E-Business Suite application to Oracle Cloud Infrastructure (OCI) with full control and access to the underlying
+Infrastructure.
+Which option meets this requirement?
+A. Replace E-Business Suite with an Oracle SaaS application
+B. OCI Exadata DB Systems and Oracle Functions
+C. OCI Exadata DB Systems and OCI compute Instances--->
+D. Oracle Exadata Cloud at customer, Storage Gateway and API Gateway
+
+##17
+Which CANNOT be used with My Oracle Support (MOS)?
+A. Reset the password or unlock the account for the tenancy administrator.
+B. Request a Service Limit increase.
+C. Add or change a tenancy administrator.
+D. Troubleshoot your resources in an Oracle Cloud Infrastructure Free Trial account.--->
+
+##18
+Which two are enabled by Oracle Cloud Infrastructure Fault Domains? (Choose two.)
+A. To mitigate the risk of large scale events such as earthquakes.
+B. Protect against unexpected hardware or power supply failures.-->
+C. To meet requirements for legal jurisdictions.
+D. Protect against planned hardware maintenance.--->
+E. Build replicated systems for disaster recovery.
+
+##19
+Which is a key benefit of using Oracle Cloud Infrastructure Autonomous Data Warehouse?
+A. Maintain root-level access to the underlying operating system.
+B. Scale both CPU and Storage without downtime.--->
+C. Apply database patches as they become available.
+D. No username and password required.
+
+##20
+Which Oracle Cloud Infrastructure (OCI) service can send you an alert when you might exceed your spending threshold?
+A. Budgets --->
+B. Monitoring
+C. Streaming
+D. Events
+
+##21
+A customer is looking to migrate their old database backups from their on-premises data center to Oracle Cloud Infrastructure (OCI).
+Which OCI service is the most cost-effective?
+A. Archive Storage
+B. Block Volume
+C. Object storage (standard)--->
+D. File Storage
+
+##22
+Which three components are part of Oracle Cloud Infrastructure Identity and Access Management service? (Choose three.)
+A. Users--->
+B. Dynamic Groups--->
+C. Regional Subnets
+D. Roles
+E. Compute instances
+F. Virtual Cloud Networks
+G. Policies--->
+
+##23
+Which is NOT covered by Oracle Cloud Infrastructure Service Level Agreement (SLA)?
+A. Availability
+B. Reliability--->
+C. Manageability
+D. Performance
+
+##24
+You are analyzing your Oracle Cloud Infrastructure (OCI) usage with Cost Analysis tool in OCI Console.
+Which is NOT a default feature of the tool?
+A. Filter costs by tags.
+B. Filter costs by date.
+C. Filter costs by applications.---->
+D. Filter costs by compartments.
+
+##25
+Which gateway can be used to provide internet access to an Oracle Cloud infrastructure compute instance in a private subnet?
+A. Internet Gateway
+B. NAT Gateway--->
+C. Service Gateway
+D. Dynamic Routing Gateway
+
+##26
+What do the terms OpEx and CapEx refer to?
+A. OpEx refers to Operational Expansion and CapEx refers to Capital Expenses.
+B. OpEx refers to Operational Example and CapEx refers to Capital Example.
+C. OpEx refers to Operational Excellence and CapEx refers to Capital Excellence.
+D. Opes refers to Operational Expenditure and CapEx refers to Capital Expenditure.--->
+
+##27
+After signing up for a new Oracle Cloud Infrastructure tenancy, what would you subscribe to in order to deploy infrastructure and services in different parts of the world?
+A. Fault Domains
+B. Regions--->
+C. Pay-as-you-go pricing
+D. Availability Domains
+
+##28
+Which is an example of Edge Services in Oracle Cloud Infrastructure (OCI)?
+A. Virtual Firewall
+B. Object Storage
+C. Virtual Cloud Network (VCN)
+D. Web Application Firewall---->
+
+##29
+##30
+##31
+##32
+##33
+##34
+##35
+##36
+##37
+##38
+##39
+##40

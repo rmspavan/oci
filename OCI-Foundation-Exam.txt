@@ -31,8 +31,30 @@ C. IPSec VPN -->
 D. FastConnect
 
 ##5
+A company has developed an eCommerce web application in Oracle Cloud Infrastructure.
+What should they do to ensure that the application has the highest level of resilience?
+A. Deploy the application across multiple Virtual Cloud Networks.
+B. Deploy the application across multiple Availability Domains and Fault Domains.
+C. Deploy the application across multiple Regions and Availability Domains.-->
+D. Deploy the application across multiple Availability Domains and subnets.
+ 
+
 ##6
+A customer wants to use Oracle Cloud Infrastructure (OCI) for storing application backups which can be stored for months, but retrieved immediately based on business needs.
+Which OCI storage service can be used to meet this requirement?
+A. File Storage
+B. Object Storage (standard)
+C. Archive Storage
+D. Block Volume -->
+
 ##7
+According to shared security model, which two are a customer's responsibilities in Oracle Cloud Infrastructure (OCI)? (Choose two.)
+A. Object Storage data durability-->
+B. Customer data-->
+C. Local NVMe data persistence
+D. Physical security of OCI data center facilities
+E. Virtual Machine hypervisor
+
 ##8
 ##9
 ##10

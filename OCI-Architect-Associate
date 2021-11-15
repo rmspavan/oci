@@ -1,0 +1,86 @@
+OCI-SAA:Oracle 1z0-1072-20
+------------------------------
+
+
+Question #1
+
+You have an Oracle Cloud Infrastructure (OCI) load balancer distributing traffic via an evenly-weighted round robin policy to your back-end web servers. You notice that one of your web servers is receiving more traffic than other web servers.
+How can you resolve this to make sure traffic is evenly distributed across all back-end webservers?
+A. Disable cookie-based session persistence on your backend set.
+B. Change keep-alive setting between the load balancer and backend server.
+C. Disable SSL configuration associated with your backend set.
+D. Create separate listeners for each backend web server.---->
+
+
+Question #2
+
+Which two are Regional resources in Oracle Cloud Infrastructure? (Choose two.)
+A. Ephemeral public IPs
+B. Compartments --->
+C. Compute images
+D. Dynamic groups --->
+E. Block volume backups
+
+Question #3
+
+An Oracle Cloud Infrastructure tenancy administrator is not able to delete a user in the tenancy.
+What can cause this issue?
+A. User has multi-factor authentication (MFA) enabled.---->
+B. User is member of an Identity and Access Management (IAM) group.
+C. Users can be blocked but not deleted.
+D. User needs to be deleted from federation Identity Provider (IdP) before deleting from IAM.
+
+Question #4
+
+You are a system administrator of your company and you are asked to manage updates and patches across all your compute instances running Oracle Linux in
+Oracle Cloud Infrastructure (OCI). As part of your task, you need to apply all the latest kernel security updates to all instances.
+Which OCI service will allow you to complete this task?
+A. Resource Manager
+B. OS Management --->
+C. Storage Gateway
+D. Streaming
+E. Registry
+
+Question #5
+
+Which of the following statements is true about the Oracle Cloud Infrastructure (OCI) Object Storage server-side encryption?
+A. Encryption of data encryption keys with a master encryption key is optional.
+B. Customer-provided encryption keys are always stored in OCI Vault service.--->
+C. Encryption is enabled by default and cannot be turned off.
+D. Each object in a bucket is always encrypted with the same data encryption key.
+
+Question #6
+
+You need to set up instance principals so that an application running on an instance can call Oracle Cloud Infrastructure (OCI) public services, without the need to configure user credentials.
+A developer in your team has already configured the application built using an OCI SDK to authenticate using the instance principals provider.
+Which is NOT a necessary step to complete this set up?
+A. Create a dynamic group with matching rules to specify which instances you want to allow to make API calls against services.
+B. Generate Auth Tokens to enable instances in the dynamic group to authenticate with APIs.
+C. Create a policy granting permissions to the dynamic group to access services in your compartment or tenancy.
+D. Deploy the application and the SDK to all the instances that belong to the dynamic group.---->
+
+Question #7
+
+You have been asked to create an Identity and Access Management (IAM) user that will authenticate to Oracle Cloud Infrastructure (OCI) API endpoints. This user must not be given credentials that would allow them to log into the OCI console.
+Which two authentication options can you use? (Choose two.)
+A. SSL certificate
+B. API signing key ---->
+C. SSH key pair
+D. PEM Certificate file
+E. Auth token --->
+
+Question #8
+
+You work for a health insurance company that stores a large number of patient health records in an Oracle Cloud Infrastructure (OCI) Object Storage bucket named "HealthRecords".
+Each record needs to be securely stored for a period of 5 years for regulatory compliance purposes and cannot be modified, overwritten or deleted during this time period.
+What can you do to meet this requirement?
+A. Create an OCI Object Storage Lifecycle Policies rule to archive objects in the HealthRecords bucket for five years.
+B. Create an OCI Object Storage time-bound Retention Rule on the HealthRecords bucket for five years. Enable Retention Rule Lock on this bucket. ------>
+C. Enable encryption on the HealthRecords bucket using your own vault master encryption keys.
+D. Enable versioning on the HealthRecords bucket.
+
+Question #9
+
+Question #10
+
+

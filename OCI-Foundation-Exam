@@ -158,9 +158,9 @@ D. Events
 ##21
 A customer is looking to migrate their old database backups from their on-premises data center to Oracle Cloud Infrastructure (OCI).
 Which OCI service is the most cost-effective?
-A. Archive Storage
+A. Archive Storage---->
 B. Block Volume
-C. Object storage (standard)--->
+C. Object storage (standard)
 D. File Storage
 
 ##22
@@ -289,9 +289,9 @@ D. Monthly
 You were recently assigned to manage a project to deploy Oracle E-Business Suite on Oracle Cloud Infrastructure (OCI). The application will require a database, several servers, and a shared file system.
 Which three OCI services are best suited for this project? (Choose three.)
 A. OCI Streaming Service
-B. Object Storage Service---->
+B. Object Storage Service
 C. File Storage Service---->
-D. Virtual Machine (VM) or Bare Metal (BM) compute instances
+D. Virtual Machine (VM) or Bare Metal (BM) compute instances--->
 E. OCI virtual or Bare Metal DB Systems---->
 F. Oracle Container Engine for Kubernetes
 
@@ -334,8 +334,8 @@ D. Oracle Cloud Infrastructure File Storage
 What does Oracle's Payment Card Industry Data Security Standard (PCI DSS) attestation of compliance provide to customers?
 A. Customers can use these services for workloads that provides validation of card holder transaction but only as 3rd party vendor.
 B. Customers can use these services for workloads to process applications for credit card approval securely.
-C. Customers can use these services for workloads that store, process, or transmit cardholder data.
-D. Customers can use these services for workloads that process, or transmit cardholder data but not store it.--->
+C. Customers can use these services for workloads that store, process, or transmit cardholder data.--->
+D. Customers can use these services for workloads that process, or transmit cardholder data but not store it.
 
 ##45
 Which capability can be used to protect against unexpected hardware or power supply failures within an Availability Domain?

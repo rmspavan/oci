@@ -1,3 +1,5 @@
+https://www.scribd.com/document/481850374/1z0-1085-20-V13-25-cor#download
+
 Oracle Foundation:Oracle 1z0-1085-20 Exam
 -------------------------------------------
 
@@ -20,9 +22,9 @@ D. File a service request for access to each additional region.
 
 ##3
 Which is NOT required to register and log support requests in My Oracle Support (MOS)?
-A. Your resource OCID (Oracle Cloud Identifier)-->
+A. Your resource OCID (Oracle Cloud Identifier)
 B. Your Tenancy OCID (Oracle Cloud Identifier)
-C. Your account password
+C. Your account password-->
 D. Your Customer Support Identifier (CSI)
 
 ##4
@@ -368,11 +370,11 @@ D. Compartments---->
 
 ##49
 Which three services integrate with Oracle Cloud Infrastructure (OCI) Key Management? (Choose three.)
-A. Identity and Access Management--->
+A. Identity and Access Management
 B. Block Volume---->
 C. Auto Scaling
 D. Functions
-E. File Storage
+E. File Storage--->
 F. Object Storage--->
 
 ##50
@@ -406,8 +408,8 @@ D. Use multiple Fault Domains in one Region.
 
 ##54
 Which is NOT considered a security resource within Oracle Cloud Infrastructure?
-A. Web Application Firewall--->
-B. File Storage Service
+A. Web Application Firewall
+B. File Storage Service--->
 C. Network Security Group
 D. Security Lists
 
@@ -455,4 +457,11 @@ D. OCI backs performance claims with Service Level Agreements.---->
 E. With OCI, pricing is low and predictable across all regions and services.--->
 
 
+##61
+Identify the three levels that a Pay Group may be assigned. (Choose three.)
 
+A. invoice-->
+B. supplier-->
+C. supplier's site--->
+D. payment type
+E. purchase order

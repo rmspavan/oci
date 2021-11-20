@@ -465,3 +465,61 @@ B. supplier-->
 C. supplier's site--->
 D. payment type
 E. purchase order
+
+
+##62
+which is a capbility of the  OCI Data Catalog service?
+
+A. It is an altrnative to Autonomous Data Warehouse.
+b. It provides a repository of searchable metadata. ---->
+c. It runs Spark job at scale.
+d. It has an accelerated library to quickly build anylytics models.
+
+##63
+Which statement correctly describe the OCI accelerated Data Science SDK?
+
+A. It is a python library that makes common tasks faster, eaiser and les error prone.
+
+##64
+Your client needs to move their Exract-Transform-Load(ETL) process to OCI. They want to take a no-code approach.
+Which OCI service should you recommend?
+
+A. Data Integration--->
+B. Data Catalog.
+c. Data Flow.
+d. Data science.
+
+##65
+Your organization has a Spark application that cometimes consumes a largw amount of computer resources. You need to run this on OCI.
+
+Which OCI service can be used to meet this requirement?
+A. Data Catalog.
+B. Data Integration.
+C. File Storage.
+d. Data Flow.--->
+
+##66
+Oracle Cloud VMware Solution uses what type of compute shapes?
+
+A. Barematel --->
+B. Exadata
+C. Autonomous
+D. Virtual Machine
+
+##67
+Which Oracle Cloud Infrastructure service should you use to manage metadata support data governance?
+
+A. Data Integration
+B. Data Flow
+C. Data Catalog --->
+D. Data Science
+
+##68
+Which task is performed by default by an Oracle Autonomous Database?
+
+A. Data Loading
+B. User Creation
+C. Configure Scaling
+D. Firmware Patching ---->
+
+
